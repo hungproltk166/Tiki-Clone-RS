@@ -1,7 +1,7 @@
 import React from 'react'
 import { Button } from 'antd'
 
-const ButtonComponent = ({ size, styleButton, styleTextButton, colorButton = '#fff', textButton, ...rests }) => {
+const ButtonComponent = ({ size, styleButton, styleTextButton, colorButton, textButton, ...rests }) => {
     return (
 
         <Button

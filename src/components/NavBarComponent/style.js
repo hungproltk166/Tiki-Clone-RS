@@ -15,3 +15,11 @@ display:flex;
 // align-items:center;
 flex-direction:column;
 gap:12px;`
+
+
+export const WrapperTextPrice = styled.div`
+ borderRadius: '10px';
+  backgroundColor: 'rgb(238,238,238)';
+  width: 'fit-content';
+   padding: '4px';
+   color: rbb(56,56,61);`
