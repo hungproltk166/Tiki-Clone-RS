@@ -1,6 +1,6 @@
 import logo from '../../assets/images/logo.png'
 import React from 'react'
-import { StyleNameProduct, WrapperCardStyle, WrapperDisscountText, WrapperPriceText, WrapperReporText } from './style'
+import { StyleNameProduct, WrapperCardStyle, WrapperDisscountText, WrapperPriceText, WrapperReporText, WrapperStyleTextSell } from './style'
 import { StarFilled } from '@ant-design/icons'
 
 
@@ -20,7 +20,7 @@ const CartComponent = () => {
                     <span> 4.96 </span>
                     <StarFilled style={{ fontSize: '12px', color: 'red ' }} />
                 </span>
-                <span> | đã bán 1000+ </span>
+                <WrapperStyleTextSell> | đã bán 1000 sản phẩm  </WrapperStyleTextSell>
                 <WrapperPriceText>
                     19.000.000đ
                     <WrapperDisscountText>

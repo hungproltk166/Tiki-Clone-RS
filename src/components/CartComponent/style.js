@@ -38,3 +38,10 @@ font-size:10px;
 margin-left:5px;
 color:rgb(255,66,78);
 font-weight:300;`
+
+export const WrapperStyleTextSell = styled.span`
+font-size : 15px;
+font-weight:300;
+line-height:24px;
+color:rgb(120,120,120);
+`
