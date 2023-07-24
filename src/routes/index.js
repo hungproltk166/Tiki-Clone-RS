@@ -34,10 +34,13 @@ export const routes = [
     },
     {
         path: '/sign-in',
-        page: SignInPage
+        page: SignInPage,
+        isShowHeader: false
+
     }, {
         path: '/sign-up',
-        page: SignUpPage
+        page: SignUpPage,
+        isShowHeader: false
     },
     {
         path: '/product-details',
