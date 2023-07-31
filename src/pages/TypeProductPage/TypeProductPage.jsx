@@ -10,23 +10,25 @@ const TypeProductPage = () => {
     }
     return (
         <div style={{ padding: '0 120px', background: '#efefef' }}>
-            <Row style={{ flexWrap: 'nowrap', paddingTop: '10px' }}>
-                <WrapperNavbar span={4} >
-                    <NavBarComponent />
-                </WrapperNavbar>
-                <Col span={20}>
-                    <WrapperProducts >
-                        <CartComponent />
-                        <CartComponent />
-                        <CartComponent />
-                        <CartComponent />
-                        <CartComponent />
-                        <CartComponent />
-                        <CartComponent />
-                    </WrapperProducts>
-                    <Pagination defaultCurrent={2} total={100} onChange={onChange} style={{ textAlign: 'center', marginTop: '10px' }} />
-                </Col>
-            </Row>
+            <div style={{ width: '1270px', margin: '0 auto' }}>
+                <Row style={{ flexWrap: 'nowrap', paddingTop: '10px' }}>
+                    <WrapperNavbar span={4} >
+                        <NavBarComponent />
+                    </WrapperNavbar>
+                    <Col span={20}>
+                        <WrapperProducts >
+                            <CartComponent />
+                            <CartComponent />
+                            <CartComponent />
+                            <CartComponent />
+                            <CartComponent />
+                            <CartComponent />
+                            <CartComponent />
+                        </WrapperProducts>
+                        <Pagination defaultCurrent={2} total={100} onChange={onChange} style={{ textAlign: 'center', marginTop: '10px' }} />
+                    </Col>
+                </Row>
+            </div>
         </div>
     )
 }

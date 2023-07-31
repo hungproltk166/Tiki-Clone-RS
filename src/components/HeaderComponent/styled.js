@@ -2,11 +2,12 @@ import { Row } from "antd";
 import styled from "styled-components";
 
 export const WrapperHeader = styled(Row)
-    `paddinng: 10px 120px;
+    `paddinng: 10px 0px;
     background-color: rgb(26, 148, 255);
     align-items:center;
     gap:16px;
     flex-Wrap: nowrap;
+    witdh:1270px;
     `
 
 

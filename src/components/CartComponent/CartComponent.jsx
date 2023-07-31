@@ -22,7 +22,9 @@ const CartComponent = () => {
                 </span>
                 <WrapperStyleTextSell> | đã bán 1000 sản phẩm  </WrapperStyleTextSell>
                 <WrapperPriceText>
-                    19.000.000đ
+                    <span style={{ marginRight: '8px' }}>
+                        19.000.000đ
+                    </span>
                     <WrapperDisscountText>
                         -26%
                     </WrapperDisscountText>
